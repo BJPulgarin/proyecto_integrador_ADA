@@ -2,12 +2,14 @@ import os
 import readchar
 
 numero = 0
-os.system('cls' if os.name=='nt' else 'clear')
+os.system('cls' if os.name == 'nt' else 'clear')
 print(numero)
 
-def imprimir (numero):
-    os.system('cls' if os.name=='nt' else 'clear')
-    print(numero)
+
+def imprimir(n):
+    os.system('cls' if os.name == 'nt' else 'clear')
+    print(n)
+
 
 while True:
     k = readchar.readkey()
