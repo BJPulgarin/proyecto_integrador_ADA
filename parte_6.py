@@ -1,8 +1,7 @@
 import random
 import os
-from functools import reduce
-
 import readchar
+from functools import reduce
 
 class Juego:
     def __init__(self, posicion_inicial=None, posicion_final=None, mapa=None):
